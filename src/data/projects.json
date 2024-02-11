@@ -1,0 +1,40 @@
+[
+  {
+    "title": "YelpCamp",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn Web Development by building a website.",
+    "skills": [
+      "JS",
+      "Express",
+      "Node",
+      "HTML",
+      "CSS",
+      "Mongodb"
+    ],
+    "demo": "https://yelpcamp-t91o.onrender.com/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Sentimental Analysis on Twitter Dataset",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn ML model creation on real world data.",
+    "skills": [
+      "Python",
+      "Tweepy",
+      "Numpy"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Restaurant Managment System",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn Java, Java JFrame & NetBeans.",
+    "skills": [
+      "Java",
+      "Java NetBeans"
+    ],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Software Engineer",
+    "organisation": "KPMG",
+    "startDate": "December, 2020",
+    "endDate": "Present",
+    "experiences": [
+      "Worked on frontend module generation",
+      "Worked on Unqork"
+    ],
+    "imageSrc": "history/kpmg.png"
+  },
+  {
+    "role": "Intern (A.I.)",
+    "organisation": "Kyrion Technologies",
+    "startDate": "June, 2019",
+    "endDate": "May, 2019",
+    "experiences": [
+      "Worked on Artificial Intelligence & Machine Learning Project",
+      "Completed Hewlett-Packard A.I. Certification"
+    ],
+    "imageSrc": "history/kyrion.png"
+  },
+  {
+    "role": "Intern (Support)",
+    "organisation": "Jio",
+    "startDate": "July, 2018",
+    "endDate": "June, 2018",
+    "experiences": [
+      "Worked on data collection from local SMEs",
+      "Helped compile and format data using Micorosoft Kaizala"
+    ],
+    "imageSrc": "history/jio.png"
+  }
+]
