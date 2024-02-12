@@ -3,6 +3,7 @@
 .container {
     position: relative;
     display: flex;
+
     align-items: center;
     justify-content: space-between;
     margin-top: 49px;
@@ -119,13 +120,14 @@
     background: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
     z-index: 0;
+}
 
-    @media screen and(max-width:830px) {
-        .container{
-            flex-direction: column-reverse;
-        }
-        .content{
-            align-items: center;
-        }
+
+@media screen and (max-width:830px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    .content{
+        align-items: center;
     }
 }
