@@ -49,14 +49,35 @@
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 
 }
-
+.imageContainer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+  }
 .heroImage {
-    width: 50%;
+   
     z-index: 1;
+    position: relative;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+
+.bottomImage{
+    position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.imageContainer:hover .heroImage {
+    opacity: 0;
+}
+
+.imageContainer:hover .bottomImage {
+    opacity: 1;
 }
 
 @keyframes floating {
